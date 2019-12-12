@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D6E874EC69A8B9136FED4C /* ChainTail.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ChainTail.podspec; path = ../ChainTail.podspec; sourceTree = "<group>"; };
-		110111032D0D87FACE1A1254 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		00D6E874EC69A8B9136FED4C /* ChainTail.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ChainTail.podspec; path = ../ChainTail.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		110111032D0D87FACE1A1254 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		147C17313DB6BC313431F040 /* Pods-ChainTail_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainTail_Example.release.xcconfig"; path = "Target Support Files/Pods-ChainTail_Example/Pods-ChainTail_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3B8FFC7F71713976BEB0FE4F /* Pods-ChainTail_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainTail_Tests.release.xcconfig"; path = "Target Support Files/Pods-ChainTail_Tests/Pods-ChainTail_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		41DC46BFC057B8E9A5B6E9D0 /* Pods-ChainTail_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainTail_Example.debug.xcconfig"; path = "Target Support Files/Pods-ChainTail_Example/Pods-ChainTail_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		B2360882356351C5A2CD5E2A /* Pods_ChainTail_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChainTail_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E006027F7E07ED5EA746EECC /* Pods_ChainTail_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChainTail_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F621F72F24DE4BE2DD3F80C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F621F72F24DE4BE2DD3F80C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				5F2FE685E054657A89B251F5 /* Pods-ChainTail_Tests.debug.xcconfig */,
 				3B8FFC7F71713976BEB0FE4F /* Pods-ChainTail_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
