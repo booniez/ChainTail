@@ -7,6 +7,16 @@
 
 ## Example
 
+### UILabel
+
+```
+let tipLabel = UILabel()
+            .text("设置")
+            .font(UIFont.systemFont(ofSize: 16.0))
+            .textColor(UIColor.red)
+            .baselineAdjustment(.alignCenters)
+```
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
@@ -16,13 +26,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ChainTail is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```
 pod 'ChainTail'
 ```
 
 ## Author
 
-yuantrybest, yuanl@ccwcar.com
+JLM, yuanl@ccwcar.com
 
 ## License
 
